@@ -18,4 +18,8 @@ Maplets[Display](maplet)
 - [ ] Web GUI using python/R 
 
 
+## Notes:
+- Use or modify the source code in this project for free
+- And if you find this small project helpful, I would be very grateful if you wrote the reference for this project on your cool paper
+
  
