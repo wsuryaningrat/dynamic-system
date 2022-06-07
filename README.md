@@ -9,32 +9,13 @@ For easy tuning of the developed scheme, a graphical user interface (GUI) is dev
 1. You must first install maple, to run this GUI
 2. 
 
-```bash
-$ LPUSH macul:default:task '{"event": "SIGN_UP", "body": "{\"email\": "\john.doe@gmail.com"\, \"password\": \"test123$\"}"}'
+```maple
+Maplets[Display](maplet)
 ```
 
-Also the message is must have these two keys `event` with string value and `body` is JSON serializable or any primitive data type.
 
-__Consumer:__
-```maple
-from macul import Macul
+##### Future update:
+- [ ] Web GUI using python/R 
 
 
-app = Macul()
-
-
-@app.consumer(event_name='testing')
-async def worker_testing(message):
-    print('Consumed by: testing')
-    print(message)
-
-
-@app.consumer(event_name='notification')
-async def worker_notification(message):
-    print('Consumed by: notification')
-    print(message)
-
-
-if __name__ == '__main__':
-    app.start()
-``` 
+ 
