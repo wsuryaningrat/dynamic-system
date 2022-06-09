@@ -15,7 +15,9 @@ Maplets[Display](maplet)
 
 
 ##### Future update:
-- [ ] Web GUI using python/R 
+- [ ] GUI using python/R 
+- [ ] Dashboard offline
+- [ ] Dashboard integrated
 
 
 ## Notes:
