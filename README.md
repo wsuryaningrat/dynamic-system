@@ -15,7 +15,8 @@ Maplets[Display](maplet)
 
 
 ##### Future update:
-- [ ] GUI using python/R 
+- [v] GUI using maple 
+- [v] GUI using python (tkinter)
 - [ ] Dashboard offline
 - [ ] Dashboard integrated
 
